@@ -1,0 +1,55 @@
+body {
+  background-color: #ffdae0;
+}
+
+h1 {
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+label {
+  font-weight: bold;
+}
+
+.countries button {
+  padding: 5px;
+  cursor: pointer;
+}
+
+.result {
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.countries,
+.result {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  gap: 5px;
+}
+
+.result img {
+  max-width: 200px;
+}
+
+.region-title {
+  text-align: center;
+  margin: 40px 0 20px 0;
+}
+
+.countries-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.countries-container img {
+  min-height: 100px;
+  max-width: 200px;
+}

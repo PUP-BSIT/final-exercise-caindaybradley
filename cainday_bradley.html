@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Cainday Bradley Page</title>
+  </head>
+  <body>
+    <div>
+      <h1>Cainday Bradley</h1>
+    </div>
+
+    <div class="content">
+      <section class="column interests-section">
+        <h2>My Interests and Hobbies</h2>
+        <ul>
+          <li>Playing Games</li>
+          <p>
+            Playing mobile legends, farlight, call of duty mobile and many more
+            online games.
+          </p>
+          <li>Make Up</li>
+          <p>
+            I find joy in every brushstroke and shade selection of doing make
+            up.
+          </p>
+          <li>Dancing</li>
+          <p>
+            I lose myself in the rhythm, moving to the music's every uplifting
+            beat.
+          </p>
+          <li>Watching Anime</li>
+          <p>
+            captivating world of anime, I savor every episode, drawn into its
+            vibrant stories.
+          </p>
+          <li>Reading Manga</li>
+          <p>
+            Delving into the pages of manga, I relish the intricate tales of
+            realms
+          </p>
+        </ul>
+      </section>
+      <section class="column works-section">
+        <h2>Journal</h2>
+        <p>
+          Thriving as a
+          <strong>Frontend Developer</strong>, 
+           I have found that creating aesthetically web interfaces 
+           is my specialty. Simultaneously, the world of
+          <strong>Graphic Design</strong>
+          offers a comfortable canvas for my creative expressions.
+        </p>
+        <p>
+          The allure of becoming a
+          <strong>Data Scientist</strong>
+          beckons, drawing me into the intricacies of backend exploration.
+          Amidst it all, a unique dream unfolds to be recognized as an
+          <strong>Esports Pro-Player</strong>, 
+          a goal pursued with optimism and
+          passion, hoping each practice and competition propels me towards
+          recognition in the digital realm.
+        </p>
+        <p>
+          This journal entry marks the beginning of a dynamic journey, where
+          technology, design, and a competitive spirit converge to shape my
+          personal and professional growth.
+        </p>
+      </section>
+      <section class="column testimonials-section">
+        <h3>Testimonials</h3>
+        <p>
+          Yves - "Bradley is not only a talented professional but also a
+          supportive and encouraging colleague. Her create a positive work
+          environment that motivates the entire team."
+        </p>
+        <p>
+          Almera - "Bradley's positivity and teamwork make every project an
+          enjoyable journey."
+        </p>
+        <p>
+          Diana - "I appreciate Bradley's communication skills; she kept our
+          group well-informed throughout the project."
+        </p>
+        <p>
+          April - "Working with Bradley was a pleasure; her dedication to our
+          project and consistent communication ensured our team's success."
+        </p>
+      </section>
+      <section class="column gallery-section">
+        <h3>Gallery</h3>
+        <img src="./images/me.png" />
+        <img src="./images/me2.jpg" />
+        <img src="./images/me3.jpg" />
+        <img src="./images/me4.jpg" />
+        <img src="./images/me5.jpg" />
+        <img src="./images/me6.jpg" />
+      </section>
+    </div>
+
+    <div class="goals">
+      <section class="my-goals">
+        <h4>My Goals</h4>
+        <ul>
+          <li>Frontend Developer</li>
+          <p>I found my forte in doing Frontend</p>
+          <li>Graphic Designer</li>
+          <p>This is where I'm cofortable to do.</p>
+          <li>Data Scientist</li>
+          <p>If ever, I'll be in backend.</p>
+          <li>Esports Pro-Player</li>
+          <p>A least one to happen, but I hope the process would flourish.</p>
+        </ul>
+      </section>
+      <section class="comments">
+        <h4>Comments</h4>
+        <form id="comment_form">
+          <label for="full_name">Full Name:</label>
+          <input
+            type="text"
+            id="full_name"
+            name="full_name"
+            required
+            pattern="[A-Za-z0-9 ]+"
+          />
+          <div>
+            <label for="comments">Comments:</label>
+            <textarea id="comments" name="comments" rows="5" cols="50" required>
+            </textarea>
+            <button type="submit" id="submit">Comment</button>
+          </div>
+        </form>
+        <div>
+          <label for="sort_comments">Sort Comments:</label>
+          <select id="sort_comments">
+            <option value="newest">Newest First</option>
+            <option value="oldest">Oldest First</option>
+          </select>
+          <button id="sort_button">Sort out</button>
+        </div>
+        <h5>Comment List</h5>
+        <ul id="comment_list"></ul>
+        <script src="script.js"></script>
+      </section>
+    </div>
+
+    <div class="countries">
+      <button
+        type="button"
+        onclick="window.location.href='./countries/countries.html'"
+      >
+        Countries of the World
+      </button>
+    </div>
+  </body>
+</html>
